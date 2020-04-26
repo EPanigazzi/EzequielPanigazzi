@@ -152,7 +152,7 @@ body{
 }
 
 #skillsCard, #footer{
-    /*display: none;*/
+    display: none;
 }
 
 #skillsCard{
