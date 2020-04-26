@@ -1,9 +1,9 @@
 # EzequielPanigazzi
-Hello Guys!
+<i>Hello Guys!</i>
 <br>
 This my website 
 <br>
-I made using HTML, CSS , Bootstrap and JavScript
+I made using <b>HTML, CSS , Bootstrap and JavScript</b>
 <br>
 <br>
 
