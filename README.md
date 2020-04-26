@@ -3,7 +3,7 @@
 <br>
 This my website 
 <br>
-I made using <b>HTML, CSS , Bootstrap and JavScript</b>
+I made using <b>HTML, CSS , Bootstrap and JavaScript</b>
 <br>
 <br>
 
