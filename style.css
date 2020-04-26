@@ -1,0 +1,383 @@
+body{
+    background-color: #a6a6a621
+}
+
+#name{
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    background-color: #fff2009c;
+}
+
+#subtitle{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#portada{
+    height: 100vh;
+}
+
+#presentaionTxt{
+    font-family: 'Economica', sans-serif;
+    font-size: 1.7rem;
+}
+
+.principalBotton{
+    border-radius: 20px !important;
+}
+#buttonSkill{
+    color: white;
+}
+
+#buttonCV{
+    background-color: #fff2006e;
+}
+
+#buttonCV:hover{
+    background-color: #fff200;
+}
+
+#presentaionHeader{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+#cvPicture{
+    border-radius: 40px;
+}
+
+
+#bottonHeader{
+    color: white;
+    font-size: 2.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menuButtons {
+    font-size: 4rem;
+}
+
+#menuButtons2{
+    margin-top: 10px;
+}
+
+#personalInformation{
+    background-color: #F3F3F2;
+    border: 1px solid #c5bfbf;
+    font-family: 'Oswald', sans-serif;  
+}
+#collapseBotton{
+    background-color: none;
+}
+
+.iconsStyle{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    border: 2px solid #b9acac;
+    width: 13vw;
+}
+
+
+#skills{
+    border-radius: 0px 50px 0 0;
+    background-color: #D9DADB;
+    border: 1px solid #bdb7b7;
+    margin-left: 10px;
+}
+
+#personalProyects{
+    background-color: #ADAFB3;
+    border: 1px solid #807c7c;
+}
+
+#contact{
+    border-radius: 0px 0px 50px 0;
+    background-color: #C3C4C5;
+    border: 1px solid #a5a1a1;
+    margin-left: 10px;
+}
+
+.cardTitles{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.6rem;
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+.iconCardStyle{
+    font-size: 2.3rem;
+}
+
+.iconCardStyle:hover{
+    font-size: 2.6rem;
+}
+
+.txtPresentation{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: end;
+}
+
+.iconSkills img{
+    width: 90px;
+}
+
+.iconSkills img:hover {
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.progressWidth{
+    width: 90%;
+}
+
+#personalSkills{
+    border-radius: 50px 50px 0px 0px;
+    margin-bottom: 0px !important;
+}
+
+#skillsCard, #footer{
+    display: none;
+}
+
+#skillsCard{
+    height: 37vw;
+}
+
+#proyectsContact{
+    height: 50vh;
+}
+
+.txtSubtitlesCards{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.txtContactLinks{
+    font-size: 1.3rem;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: black;
+    font-weight: 300;
+}
+
+.informationSkills{
+    border-radius: 0px 0px 50px 50px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    padding: 20px;
+    border-color: 1px solid #9e9e9e;
+    background-color: white;
+}
+
+.txtSkills{
+    font-size: 1.3rem;
+    text-align: start;
+    font-weight: 800;
+}
+
+#bottonUPContainer{
+    display: none;
+}
+
+#bottonUP{
+    font-size: 2rem;
+}
+
+#bottonUP:hover{
+    font-size: 2.6rem;
+}
+
+.txtFooter{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+@media(max-width:1440px){
+    #buttonCV{
+        width: 37vw !important;   
+    }
+    #buttonSkill{
+        width: 37vw !important;
+    }
+    #presentaionTxtHeader{
+        font-size: 3rem !important;
+    }
+    #presentaionTxt{
+        font-size: 2rem !important;
+    }
+    #footer{
+        margin-top: 10rem !important;
+    }
+    #skillsCard{
+        margin-top: 17rem !important
+    }
+}
+
+@media(max-width:1024px){
+
+    #EPGit{
+        margin-left: -8px !important;
+    }
+    #EPLinkedIn{
+        margin-left: -24px !important;
+    }
+    #EPEmail{
+        margin-left: -6px !important;
+    }
+    #presentaionTxtHeader{
+        font-size: 2.1rem !important;
+    }
+    #presentaionTxt{
+        font-size: 1.9rem !important;
+    }
+    #buttonCV{
+        width: 20vw !important;
+        font-size: 23px !important;    
+    }
+    #buttonSkill{
+        width: 22vw !important;
+        font-size: 25px !important;
+    }
+    #footer{
+        margin-top: 19rem !important;
+    }
+    
+}
+
+@media(max-width:768px){
+    .txtContactLinks{
+        float: left !important;
+    }
+    #buttonSkill{
+        width: 90vw !important;
+    }
+    #buttonCV{
+        width: 90vw !important;
+    }
+    #presentaionTxtHeader{
+        font-size: 2.6rem !important;
+    }
+    #presentaionTxt{
+        font-size: 2rem !important;
+    }
+    #footer{
+        margin-top: 26rem !important;
+    }
+    #skillsCard{
+        margin-top: 60rem !important
+    }
+}
+
+
+@media(max-width:425px){
+    #buttonSkill, #buttonCV{
+        width: 86vw !important;
+    }
+    .iconCardStyle{
+        display: none !important;
+    }
+    #EPLinkedIn{
+        margin-left: 100px !important;
+    }
+    #EPGit{
+        margin-left: 8.5rem !important;
+    }
+    #EPEmail{
+        margin-left: 3.4rem !important;
+    }
+    #presentaionTxtHeader{
+        font-size: 2.1rem !important;
+    }
+    #presentaionTxt{
+        font-size: 1.9rem !important;
+    }
+    #footer{
+        margin-top: 112rem !important
+    }
+    #skillsCard{
+        margin-top: 54rem !important
+    }
+}
+
+@media(max-width:375px){
+    #buttonSkill, #buttonCV{
+        width: 83vw !important;
+    }
+    .iconCardStyle{
+        display: none !important;
+    }
+    #EPLinkedIn{
+        margin-left: 73px !important;
+    }
+    #EPGit{
+        margin-left: 7rem !important;
+    }
+    #EPEmail{
+        margin-left: 1.4rem !important;
+    }
+    #presentaionTxtHeader{
+        font-size: 1.9rem !important;
+    }
+    #presentaionTxt{
+        font-size: 1.7rem !important;
+    }
+    #footer{
+        margin-top: 113rem !important
+    }
+    #skillsCard{
+        margin-top: 47rem !important
+    }
+}
+
+@media(max-width:320px){
+    #buttonSkill, #buttonCV{
+        width: 80vw !important;
+    }
+    #presentaionHeader{
+        font-size: 2.2rem !important;
+    }
+    .iconCardStyle{
+        display: none !important;
+    }
+    #EPLinkedIn{
+        margin-left: 56px !important;
+    }
+    #EPGit{
+        margin-left: 5rem !important;
+    }
+    #EPEmail{
+        margin-left: 0px !important;
+    }
+    #presentaionTxtHeader{
+        font-size: 1.7rem !important;
+    }
+    #presentaionTxt{
+        font-size: 1.4rem !important;
+    }
+    #footer{
+        margin-top: 115rem !important;
+    }
+    #skillsCard{
+        margin-top: 35rem !important
+    }
+
+}
