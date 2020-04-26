@@ -39,7 +39,6 @@ $( document ).ready(function() {
     });
 
     $("#headingOne").click(function(){
-        //$("#collapsePresentacion").show();
         $("#skillsCard, #footer, #bottonUPContainer").hide();
     });
 
