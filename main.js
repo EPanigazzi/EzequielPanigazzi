@@ -1,4 +1,4 @@
-/*$( document ).ready(function() {
+$( document ).ready(function() {
 
     $("#footer").hide();
 
@@ -42,4 +42,4 @@
         $("#skillsCard, #footer, #bottonUPContainer").hide();
     });
 
-});*/
+});
